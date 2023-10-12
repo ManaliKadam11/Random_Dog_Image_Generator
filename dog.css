@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("./dog\ img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+h3 {
+    position: absolute;
+    background-image: none;
+    background-color: beige;
+    left: 48%;
+    top: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(174, 174, 87);
+}
+
+#dogbutton {
+    position: relative;
+    top: 170px;
+    left: 46%;
+    /* box-shadow: 2px 2px 5px red; */
+    font-size: 18px;
+    font-weight: bolder;
+    background-image: none;
+    cursor: pointer;
+    border-radius: 5px;
+    /* background-color: blue; */
+}
+
+button:hover {
+    background-color: crimson;
+    color: white;
+}
+
+#dogimage {
+    position: relative;
+    top: 140px;
+    width: 300px;
+    left: 43%;
+    box-shadow: 5px 5px 5px rgb(140, 140, 70) ;
+}
